@@ -1,0 +1,23 @@
+{
+  "name": "server-chat",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "jade": "~1.11.0",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21",
+    "morgan": "^1.9.1",
+    "mysql": "^2.15.0",
+    "serve-favicon": "~2.4.2",
+    "socket.io": "^2.1.1"
+  }
+}
